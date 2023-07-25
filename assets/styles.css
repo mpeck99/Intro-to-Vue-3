@@ -40,7 +40,6 @@ body {
   border-radius: 50%;
 }
 
-
 .disabledButton {
   background-color: #d8d8d8;
   cursor: not-allowed;
@@ -83,13 +82,16 @@ li {
   background: linear-gradient(-90deg, #84cf6a, #16c0b0);
   height: 60px;
   margin-bottom: 25px;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-top: -2rem;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
 }
 
 .out-of-stock-img {
-  opacity:0.5
+  opacity: 0.5;
 }
 
 p {
@@ -179,4 +181,8 @@ ul {
   .review-form {
     width: 90%;
   }
+}
+
+.inner {
+  padding: 2rem;
 }
